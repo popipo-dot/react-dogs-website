@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+  display: flex;
+  background-color: #2463EB;
+  align-items: center;
+  height: 80px;
+}
+
+  .header_logo {
+    display: flex;
+    width: 50%;
+    margin-left: 70px;
+    align-items: center;
+  }
+
+    .header_logo img {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    .header_logo h2 {
+      color: white;
+    }
+
+nav {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+  nav a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+  }
+
+main {
+  margin-left: 70px;
+}
+
+footer {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+
+
+/* Da mettere nel main o comunque in nelle tre macroaree el sito */
+
+/* .container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 10px 30px;
+} */
