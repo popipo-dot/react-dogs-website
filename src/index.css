@@ -3,25 +3,32 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Impostazioni di layout che per qualche motivo non riesco ad applicare all'header in modo corretto :( */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+/* Fine impostazioni di layout */
 
 header {
   display: flex;
   background-color: #2463EB;
   align-items: center;
-  height: 80px;
 }
 
   .header_logo {
     display: flex;
     width: 50%;
-    margin-left: 70px;
     align-items: center;
+    margin-left: 70px; /* per ora mi arrangio in questo modo finche non capisco quale sia il problema */
   }
+  
 
     .header_logo img {
       width: 50px;
       height: 50px;
-      margin-right: 20px;
+      margin-right: 15px; 
     }
 
     .header_logo h2 {
@@ -32,7 +39,8 @@ nav {
   display: flex;
   width: 50%;
   justify-content: flex-end;
-  margin-right: 70px;
+  margin-right: 70px; /* per ora mi arrangio in questo modo finche non capisco quale sia il problema */
+  
 }
 
   nav a {
@@ -40,22 +48,3 @@ nav {
     padding-right: 20px;
     color: white;
   }
-
-main {
-  margin-left: 70px;
-}
-
-footer {
-  margin-right: 70px;
-  margin-left: 70px;
-}
-
-
-
-/* Da mettere nel main o comunque in nelle tre macroaree el sito */
-
-/* .container {
-  max-width: 1600px;
-  margin: auto;
-  padding: 10px 30px;
-} */

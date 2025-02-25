@@ -1,8 +1,11 @@
 function Main () {
     return (
-        <main>
+        
+        <div className="container"> 
+            <main>
             <h1>Qui va il contenuto</h1>
-        </main>
+            </main> 
+        </div>
     )
 }
 

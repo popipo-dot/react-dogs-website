@@ -1,8 +1,11 @@
 function Footer () {
     return (
-        <footer> 
+        <div className="container"> 
+            <footer> 
             Questo è il footer!
-        </footer>
+            </footer>
+        </div>
+        
     )
 }
 
